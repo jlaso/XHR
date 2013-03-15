@@ -1,5 +1,5 @@
 // Include the taffy library
-Ti.taffy = require('/lib/ti.taffydb').taffyDb;
+Ti.taffy = require('/XHR/lib/ti.taffydb').taffyDb;
 
 // Create the cache manager (a shared object)
 var cacheManager = Ti.taffy();
